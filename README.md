@@ -37,6 +37,8 @@ With the completion of the data processing phase, we can turn our attention to a
 
 To start, I compared the amount of rides and the average ride_length between annual members and casual riders
 
+![Comparison between Casual riders and Annual members number of rides/average_duration](jimmy/Downloads/Graphs/hours_casual_members.png)
+
 Upon initial examination, it becomes evident that there is a substantial difference between the usage of Cyclistic between the annual members and casual rides. Specifically, annual members exhibit roughly double the ride frequency. 
 To gain a more comprehensive understanding of this difference, the ggplot package was used to create a visualization of the data from R.
 
