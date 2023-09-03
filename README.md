@@ -40,13 +40,20 @@ To start, I compared the amount of rides and the average ride_length between ann
 ![Comparison between Casual riders and Annual members number of rides/average_duration](num_of_rides.png)
 
 Upon initial examination, it becomes evident that there is a substantial difference between the usage of Cyclistic between the annual members and casual rides. Specifically, annual members exhibit roughly double the ride frequency. 
+
 To gain a more comprehensive understanding of this difference, the ggplot package was used to create a visualization of the data from R.
+
+![Comparison of number of rides between Casual riders and Annual members](num_rides_casual_members.png)
 
 The graph very obviously shows the staggering difference in usage between casual users and members of Cyclistic. Moreover, a discernible bell-shaped trend is discernible among Cyclistic members, indicating higher utilization during weekdays. Thus, it can be hypothesized that the members of Cyclistic use this service as a way to commute to-and-from work/school. 
 
 However, when revisiting the comparison between the two user categories, a noteworthy observation is that casual users tend to have a longer average ride duration compared to members.
 
-The graph, which showcases a trend opposite to the ride number comparison, led me to delve deeper into the number of rides at each hour..
+![Comparison of average ride length between Casual riders and Annual members](ride_length.png)
+
+The graph, which showcases a trend opposite to the ride number comparison, led me to delve deeper into the number of rides at each hour.
+
+![Comparison of hour service has been used between Casual riders and Annual members](hours_casual_members.png)
 
 The graph shows that members reach their first peak in ride frequency around 8:00 - 9:00 A.M., coinciding with the typical start of the workday, and a second peak around 5:00 P.M., corresponding to the end of the workday. Thus, it can be reasonably assumed that members predominantly use these services for their daily commutes. 
 
